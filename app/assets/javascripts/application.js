@@ -15,7 +15,7 @@
 //= require underscore
 //= require backbone
 
-//= require bbtodo
+//= require todo
 
 //= require_tree ../templates
 //= require_tree ./models

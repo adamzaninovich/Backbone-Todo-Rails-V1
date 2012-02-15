@@ -1,0 +1,15 @@
+<% if @todos.remaining().length isnt 0: %>
+	<span class="todo-count">
+		<span class="number"><%= @todos.remaining().length %></span>
+		<span class="word"><%= if @todos.remaining().length is 1 then 'item' else 'items' %></span> left.
+	</span>
+<% end %>
+
+<% if @todos.completed().length isnt 0: %>
+	<span class="todo-clear">
+		<a href="#">
+			Clear <span class="number-done"><%= @todos.completed().length %></span> completed
+			<span class="word-done"><%= if @todos.completed().length is 1 then 'item' else 'items' %></span>
+		</a>
+	</span>
+<% end %>

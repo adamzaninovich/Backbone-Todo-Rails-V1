@@ -1,0 +1,36 @@
+<div id="todoapp">
+	
+	<div id="title">
+		<h1>Todos</h1>		
+	</div>
+	
+	<div class="content">
+		
+		<div id="create-todo">
+			<input id="new-todo" placeholder="What needs to be done?" type="text" />
+      <span class="ui-tooltip-top" style="display:none">Press Enter to save this task</span>
+		</div>
+		
+		<div id="todos">
+			<ul id="todo-list"></ul>
+		</div>
+		
+		<div id="todo-stats"></div>
+		
+	</div>
+	
+</div>
+
+<ul id="instructions">
+	<li>Double-click to edit a todo.</li>
+</ul>
+
+<div id="credits">
+	Originally created by
+	<br>
+	<a href="http://jgn.me/">J&eacute;r&ocirc;me Gravel-Niquet</a>
+	<br><br>
+	Modified for latest Backbone running on Rails by
+	<br>
+	<a href="http://adamzaninovich.com/">Adam Zaninovich</a>
+</div>
