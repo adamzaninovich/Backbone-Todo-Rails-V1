@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.1'
-gem 'sqlite3'
+gem 'rails',                '3.2.1'
+gem 'backbone-on-rails'
+gem 'thin'
+gem 'pg',       group: :production
+gem 'sqlite3',  group: :development
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -10,8 +13,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
-gem 'backbone-on-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
